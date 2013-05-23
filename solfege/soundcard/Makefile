@@ -23,7 +23,7 @@ dist_files += solfege/soundcard/Makefile \
 	solfege/soundcard/winmidi.dsp solfege/soundcard/winmidi.dsw solfege/soundcard/winmidi.def \
 	$(wildcard solfege/soundcard/tests/*.py)
 
-CFLAGS:=$(CFLAGS) -I/usr/src/linux/include -Wall -pedantic -fPIC -I.
+CFLAGS:=$(CFLAGS) -Wall -pedantic -fPIC -I.
 CC:=$(CC) $(CFLAGS) -DHAVE_CONFIG_H 
 
 ifeq ($(ENABLE_OSS_SOUND),yes)

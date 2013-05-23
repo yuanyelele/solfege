@@ -41,6 +41,8 @@
 /solfege/soundcard/solfege_c_midi.py
 /solfege/soundcard/solfege_c_midi_wrap.c
 /solfege/soundcard/winmidi.pyd
+/solfege/soundcard/*.o
+/solfege/soundcard/*.so
 solfege.png
 flat.png
 natural.png
